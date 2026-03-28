@@ -66,16 +66,16 @@ FakeNews/
 │ ├── ml_model.py # Model inference logic
 │ ├── credibility.py # Source credibility scoring
 │ ├── explain.py # Prediction explanation
-│ ├── schemas.py # Data models
-│ └── init.py
+│ ├── schemas.py # Request/response models
+│ └── __init__.py
 │
-├── app.py # Streamlit frontend
+├── app.py # Streamlit frontend (UI)
 ├── train_model.py # Model training script
-├── fake_news_model.pkl # Trained model
+├── fake_news_model.pkl # Trained Logistic Regression model
 ├── vectorizer.pkl # TF-IDF vectorizer
-├── Fake.csv # Dataset
-├── True.csv # Dataset
-├── requirements.txt
+├── Fake.csv # Fake news dataset
+├── True.csv # Real news dataset
+├── requirements.txt # Dependencies
 └── README.md
 
 ---
